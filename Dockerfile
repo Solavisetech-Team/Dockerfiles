@@ -9,7 +9,7 @@ ENTRYPOINT [ "echo", "hello" ]
 #git
 FROM alpine/git as repo
 
-MAINTAINER name solavisetechtech@gmail.com
+MAINTAINER prof Atanga
 
 WORKDIR /app
 RUN git clone https://github.com/Solavisetech-Team/maven-web-app.git
